@@ -11,7 +11,7 @@ from datetime import datetime, date as dt
 st.set_page_config(page_title="Expense Tracker", layout="wide")
 
 from PIL import Image
-logo = Image.open(r"C:\Users\snega\Downloads\eXPENSE tRANCKER.png")
+logo = Image.open("eXPENSE tRANCKER.png")
 st.sidebar.image(logo, use_column_width=True)
 
 st.title("🧾 Personal Expense Tracker")
